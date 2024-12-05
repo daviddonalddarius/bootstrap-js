@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+
+<style>
+
+/* font family style for card-title*/
+h1 {
+  font-family: "Bungee Outline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color:white
+}
+
+
+
+/* Header with background image */
+header {
+    position: relative;
+    height: 100vh;
+    background-image: url("vinyl background.png");
+    background-size: 1200px;
+    overflow: hidden;
+}
+ 
+/* Auth Forms Section Styling */
+.auth-section {
+    background-color: #fff; 
+    padding: 50px 0;
+}
+
+.auth-form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.auth-form h4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.auth-form .form-group {
+    margin-bottom: 15px;
+}
+
+.auth-form .btn {
+    width: 100%;
+}
+
+.auth-form a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar styles */
+.bg-dark-custom {
+    background-color: #212121 !important; /* dark background */
+}
+
+/* Navbar text color */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ddd; /* Slightly lighter color on hover */
+}
+
+/* Footer custom styles */
+footer {
+    background-color: #333;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">OG-FlacAudio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Albums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Flac-CDs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <!-- Search Form -->
+                <form class="form-inline ml-3">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search for products</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section with Background Image -->
+    <header class="header">
+        
+<div class="container">
+    <div class="card-shadow p-4">
+       
+        <div class="row">
+    
+            <div class="col-8">
+                <h1 class="card-title"><b>FIND MUSIC</b></h1>
+                <h1 class="card-title"><b>THAT MATCHES</b></h1>                        
+                <h1 class="card-title"><b>YOUR GENRE</b></h1>            
+                           
+                <p class="card-text">Browse through our diverse range of meticulously crafted vinyls to bring out </p>
+                <p class="card-text">your individuality and cater to your sense of style</p>
+                
+                <br>
+                <button type="button" class="btn btn-outline-dark btn-light"><b>Shop Now</b></button>
+            <br>
+            <br>
+            <br>
+            
+            <div class="row">
+                <div class="col-2">
+                    <h3 class="card-title">200+</h3>
+                    <p class="card-text">International Brands</p>
+                </div>
+                <div class="col-2">
+                    <h3 class="card-title">2000+</h3>
+                    <p class="card-text">Quality Products</p>
+                </div>
+                <div class="col-2">
+                    <h3 class="card-title">10000+</h3>
+                    <p class="card-text">Genuine Feedback</p>
+                </div>
+                <div class="col-2">
+                    <h3 class="card-title">30000+</h3>
+                    <p class="card-text">Happy Customers</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-4">
+                <img class="w-100" src=" ">
+            </div>
+
+        
+       </div> 
+    </div>
+</div>
+    </header>
+
+    <!-- Content Section -->
+    <section id="shop" class="container py-5">
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://www.designformusic.com/wp-content/uploads/2016/05/continuum-trailer-music-album-cover-design-500x500.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Continuum Album</h5>
+                        <p class="card-text">490.99 Rupees only</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://audition.justisntmusic.com/images/albums/NTPM481_AlbumArt.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Ninja Tune's ocean blues Album</h5>
+                        <p class="card-text">799.99 Rupees only</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://ballysagoomusic.com/wp-content/uploads/1996/01/Bally-Sagoo_Cover-Art_Rising-From-The-East_0500px.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Rising From The East collection</h5>
+                        <p class="card-text">299.99 Rupees only</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+<div class="container">
+    <div class="card-shadow p-4">
+        <div class="row">
+            <div class="col-4">
+                <img class="w-100" src="https://www.designformusic.com/wp-content/uploads/2016/05/continuum-trailer-music-album-cover-design-500x500.jpg">
+            </div>
+            <div class="col-8">
+                <h5 class="card-title"> Continuum Album </h5>
+                <p class="card-text text-muted"><b> Human Origins - The Beginnings (Limited time Offer)</b></p>
+                <p class="card-text"><b>₹490.99</b></p>
+                <p class="card-text">Continuum:Revisited</p>
+                <p class="card-text">The very best art exists in a universe displaced from time, yet feels very much of the moment — creeping back every so often to offer fresh perspective. Great art grows with you. It comforts you like an old friend. It’s therapy. In the right light, we mistake it for wisdom.
+
+                </p>
+                <form>
+                    <label for="Quantity" class="form-label">Quantity</label>
+                    <input type="number" class="form-control w-50" value="1" min="1" max="5"><br>
+                    <label for="Mode of payment">Mode of payment</label>
+                    <select class="form-select w-50">
+                        <option>Cash on Delivery</option>
+                        <option>Express Delivery</option>
+                        <option>UPI</option>
+                        <option>Credit card</option>
+                    </select>
+                    
+                </form><br>
+                <button class="btn btn-primary">Get it now</button>
+                <button class="btn btn-secondary">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 OG-FlacAudio. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+</body>
+
+</html>
+
+
+
